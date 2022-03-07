@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="port" value="4724"/>
+  <parameter name="platformVersion" value="10"/>
+  <parameter name="deviceName" value="OnePlus 6T "/>
+  <parameter name="UDID" value="84c38a28"/>
+  <test name="Test(failed)" parallel="tests">
+    <parameter name="port" value="4723"/>
+    <parameter name="platformVersion" value="10"/>
+    <parameter name="deviceName" value="Redmi 9 Prime"/>
+    <parameter name="UDID" value="b8afcac90408"/>
+    <classes>
+      <class name="com.web.ParallelExecution">
+        <methods>
+          <include name="parallelexecution" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.web.ParallelExecution -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

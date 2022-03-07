@@ -1,0 +1,10 @@
+{
+"deviceName":"Redmi 9 Prime",
+"automationName":"Appium",
+"platformName":"Android",
+"platformVersion":"10",
+"UDID":"b8afcac90408",
+"noReset":"true",
+"browserName":"Chrome",
+"url":"http://localhost:4723/wd/hub"
+}

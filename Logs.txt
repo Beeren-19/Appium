@@ -1,0 +1,193 @@
+2021-09-13 05:57:03:551 [Appium] Welcome to Appium v1.21.0
+2021-09-13 05:57:03:553 [Appium] Non-default server args:
+2021-09-13 05:57:03:553 [Appium]   sessionOverride: true
+2021-09-13 05:57:03:554 [Appium]   logFile: F:\qspider\Appium\..\Appium\Logs.txt
+2021-09-13 05:57:03:582 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2021-09-13 05:57:04:016 [HTTP] --> GET /wd/hub/status
+2021-09-13 05:57:04:017 [HTTP] {}
+2021-09-13 05:57:04:023 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-09-13 05:57:04:027 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.21.0"}}
+2021-09-13 05:57:04:046 [HTTP] <-- GET /wd/hub/status 200 21 ms - 68
+2021-09-13 05:57:04:047 [HTTP] 
+2021-09-13 05:57:05:214 [HTTP] --> POST /wd/hub/session
+2021-09-13 05:57:05:215 [HTTP] {"desiredCapabilities":{"appPackage":"com.android.camera","appActivity":".Camera","noReset":true,"platformVersion":"10","automationName":"Appium","platformName":"Android","deviceName":"Redmi 9 Prime","UDID":"b8afcac90408"}}
+2021-09-13 05:57:05:217 [MJSONWP] Calling AppiumDriver.createSession() with args: [{"appPackage":"com.android.camera","appActivity":".Camera","noReset":true,"platformVersion":"10","automationName":"Appium","platformName":"Android","deviceName":"Redmi 9 Prime","UDID":"b8afcac90408"},null,null]
+2021-09-13 05:57:05:323 [BaseDriver] Event 'newSessionRequested' logged at 1631512625218 (11:27:05 GMT+0530 (India Standard Time))
+2021-09-13 05:57:05:332 [Appium] 
+2021-09-13 05:57:05:333 [Appium] ======================================================================
+2021-09-13 05:57:05:334 [Appium]   DEPRECATION WARNING:
+2021-09-13 05:57:05:334 [Appium] 
+2021-09-13 05:57:05:335 [Appium]   The 'automationName' capability was not provided in the desired 
+2021-09-13 05:57:05:336 [Appium]   capabilities for this Android session
+2021-09-13 05:57:05:337 [Appium] 
+2021-09-13 05:57:05:338 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2021-09-13 05:57:05:338 [Appium]   UiAutomator2 Driver
+2021-09-13 05:57:05:339 [Appium] 
+2021-09-13 05:57:05:340 [Appium]   The next major version of Appium (2.x) will **require** the 
+2021-09-13 05:57:05:340 [Appium]   'automationName' capability to be set for all sessions on all 
+2021-09-13 05:57:05:341 [Appium]   platforms
+2021-09-13 05:57:05:341 [Appium] 
+2021-09-13 05:57:05:342 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2021-09-13 05:57:05:342 [Appium]   'automationName=UiAutomator1'
+2021-09-13 05:57:05:343 [Appium] 
+2021-09-13 05:57:05:344 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2021-09-13 05:57:05:345 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2021-09-13 05:57:05:346 [Appium] 
+2021-09-13 05:57:05:346 [Appium]   For more information about drivers, please visit 
+2021-09-13 05:57:05:347 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2021-09-13 05:57:05:348 [Appium]   'Drivers' menu
+2021-09-13 05:57:05:348 [Appium] 
+2021-09-13 05:57:05:349 [Appium] ======================================================================
+2021-09-13 05:57:05:350 [Appium] 
+2021-09-13 05:57:12:001 [Appium] Appium v1.21.0 creating new AndroidUiautomator2Driver (v1.65.0) session
+2021-09-13 05:57:12:005 [Appium] There are no active sessions for cleanup
+2021-09-13 05:57:12:019 [BaseDriver] Creating session with MJSONWP desired capabilities: {
+2021-09-13 05:57:12:020 [BaseDriver]   "appPackage": "com.android.camera",
+2021-09-13 05:57:12:021 [BaseDriver]   "appActivity": ".Camera",
+2021-09-13 05:57:12:022 [BaseDriver]   "noReset": true,
+2021-09-13 05:57:12:023 [BaseDriver]   "platformVersion": "10",
+2021-09-13 05:57:12:024 [BaseDriver]   "automationName": "Appium",
+2021-09-13 05:57:12:024 [BaseDriver]   "platformName": "Android",
+2021-09-13 05:57:12:025 [BaseDriver]   "deviceName": "Redmi 9 Prime",
+2021-09-13 05:57:12:026 [BaseDriver]   "UDID": "b8afcac90408"
+2021-09-13 05:57:12:027 [BaseDriver] }
+2021-09-13 05:57:12:050 [BaseDriver] The following capabilities were provided, but are not recognized by Appium:
+2021-09-13 05:57:12:050 [BaseDriver]   UDID
+2021-09-13 05:57:12:063 [BaseDriver] Session created with session id: 5f9939bd-f744-4616-b403-7eac1320d051
+2021-09-13 05:57:12:067 [UiAutomator2] Starting 'com.android.camera' directly on the device
+2021-09-13 05:57:12:470 [ADB] Found 2 'build-tools' folders under 'C:\Users\Dell\AppData\Local\Android\Sdk' (newest first):
+2021-09-13 05:57:12:471 [ADB]     C:/Users/Dell/AppData/Local/Android/Sdk/build-tools/31.0.0
+2021-09-13 05:57:12:471 [ADB]     C:/Users/Dell/AppData/Local/Android/Sdk/build-tools/30.0.2
+2021-09-13 05:57:12:473 [ADB] Using 'adb.exe' from 'C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2021-09-13 05:57:12:481 [ADB] Running 'C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2021-09-13 05:57:12:531 [AndroidDriver] Retrieving device list
+2021-09-13 05:57:12:532 [ADB] Trying to find a connected android device
+2021-09-13 05:57:12:541 [ADB] Getting connected devices
+2021-09-13 05:57:12:583 [ADB] Connected devices: [{"udid":"b8afcac90408","state":"device"}]
+2021-09-13 05:57:12:583 [AndroidDriver] Looking for a device with Android '10.0.0'
+2021-09-13 05:57:12:584 [ADB] Setting device id to b8afcac90408
+2021-09-13 05:57:12:584 [ADB] Getting device platform version
+2021-09-13 05:57:12:585 [ADB] Running 'C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b8afcac90408 shell getprop ro.build.version.release'
+2021-09-13 05:57:12:634 [ADB] Current device property 'ro.build.version.release': 10
+2021-09-13 05:57:12:635 [AndroidDriver] Using device: b8afcac90408
+2021-09-13 05:57:12:644 [ADB] Using 'adb.exe' from 'C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2021-09-13 05:57:12:645 [ADB] Running 'C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2021-09-13 05:57:12:686 [ADB] Setting device id to b8afcac90408
+2021-09-13 05:57:12:687 [ADB] Running 'C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b8afcac90408 shell getprop ro.build.version.sdk'
+2021-09-13 05:57:12:751 [ADB] Current device property 'ro.build.version.sdk': 29
+2021-09-13 05:57:12:751 [ADB] Getting device platform version
+2021-09-13 05:57:12:751 [ADB] Running 'C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b8afcac90408 shell getprop ro.build.version.release'
+2021-09-13 05:57:12:821 [ADB] Current device property 'ro.build.version.release': 10
+2021-09-13 05:57:12:822 [ADB] Device API level: 29
+2021-09-13 05:57:12:823 [UiAutomator2] Relaxing hidden api policy
+2021-09-13 05:57:12:826 [ADB] Running 'C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b8afcac90408 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2021-09-13 05:57:13:073 [AndroidDriver] No app sent in, not parsing package/activity
+2021-09-13 05:57:13:076 [ADB] Running 'C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b8afcac90408 wait-for-device'
+2021-09-13 05:57:13:151 [ADB] Running 'C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b8afcac90408 shell echo ping'
+2021-09-13 05:57:13:209 [AndroidDriver] Pushing settings apk to device...
+2021-09-13 05:57:13:211 [ADB] Getting install status for io.appium.settings
+2021-09-13 05:57:13:212 [ADB] Running 'C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b8afcac90408 shell dumpsys package io.appium.settings'
+2021-09-13 05:57:13:303 [ADB] 'io.appium.settings' is installed
+2021-09-13 05:57:13:304 [ADB] Getting package info for 'io.appium.settings'
+2021-09-13 05:57:13:304 [ADB] Running 'C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b8afcac90408 shell dumpsys package io.appium.settings'
+2021-09-13 05:57:13:618 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.3.0' >= '3.3.0')
+2021-09-13 05:57:13:620 [ADB] There is no need to install/upgrade 'C:\Users\Dell\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2021-09-13 05:57:13:622 [ADB] Getting IDs of all 'io.appium.settings' processes
+2021-09-13 05:57:13:623 [ADB] Running 'C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b8afcac90408 shell 'pgrep --help; echo $?''
+2021-09-13 05:57:13:738 [ADB] Running 'C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b8afcac90408 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2021-09-13 05:57:13:871 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2021-09-13 05:57:13:871 [ADB] Running 'C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b8afcac90408 shell appops set io.appium.settings android:mock_location allow'
+2021-09-13 05:57:13:965 [Logcat] Starting logs capture with command: C:\\Users\\Dell\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s b8afcac90408 logcat -v threadtime
+2021-09-13 05:57:14:036 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 8200
+2021-09-13 05:57:14:037 [ADB] Forwarding system: 8200 to device: 6790
+2021-09-13 05:57:14:037 [ADB] Running 'C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b8afcac90408 forward tcp:8200 tcp:6790'
+2021-09-13 05:57:14:181 [ADB] Getting install status for io.appium.uiautomator2.server
+2021-09-13 05:57:14:182 [ADB] Running 'C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b8afcac90408 shell dumpsys package io.appium.uiautomator2.server'
+2021-09-13 05:57:14:268 [ADB] 'io.appium.uiautomator2.server' is installed
+2021-09-13 05:57:14:268 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2021-09-13 05:57:14:268 [ADB] Running 'C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b8afcac90408 shell dumpsys package io.appium.uiautomator2.server'
+2021-09-13 05:57:14:365 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.21.1' >= '4.21.1')
+2021-09-13 05:57:14:366 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2021-09-13 05:57:14:366 [ADB] Checking app cert for C:\Users\Dell\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.21.1.apk
+2021-09-13 05:57:14:372 [ADB] Using 'apksigner.jar' from 'C:\Users\Dell\AppData\Local\Android\Sdk\build-tools\31.0.0\lib\apksigner.jar'
+2021-09-13 05:57:14:373 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_281\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\Dell\\AppData\\Local\\Android\\Sdk\\build-tools\\31.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\Dell\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.21.1.apk
+2021-09-13 05:57:15:207 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2021-09-13 05:57:15:208 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2021-09-13 05:57:15:208 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2021-09-13 05:57:15:208 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2021-09-13 05:57:15:208 [ADB] 
+2021-09-13 05:57:15:209 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v4.21.1.apk'
+2021-09-13 05:57:15:209 [ADB] 'C:\Users\Dell\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.21.1.apk' is signed with the default certificate
+2021-09-13 05:57:15:209 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2021-09-13 05:57:15:209 [ADB] Running 'C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b8afcac90408 shell dumpsys package io.appium.uiautomator2.server.test'
+2021-09-13 05:57:15:282 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2021-09-13 05:57:15:282 [ADB] Checking app cert for C:\Users\Dell\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2021-09-13 05:57:15:283 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_281\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\Dell\\AppData\\Local\\Android\\Sdk\\build-tools\\31.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\Dell\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+2021-09-13 05:57:16:198 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2021-09-13 05:57:16:199 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2021-09-13 05:57:16:199 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2021-09-13 05:57:16:199 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2021-09-13 05:57:16:199 [ADB] 
+2021-09-13 05:57:16:199 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2021-09-13 05:57:16:200 [ADB] 'C:\Users\Dell\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2021-09-13 05:57:16:200 [UiAutomator2] Server packages are not going to be (re)installed
+2021-09-13 05:57:16:205 [UiAutomator2] Waiting up to 30000ms for services to be available
+2021-09-13 05:57:16:206 [ADB] Running 'C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b8afcac90408 shell pm list instrumentation'
+2021-09-13 05:57:16:339 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2021-09-13 05:57:16:344 [ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2021-09-13 05:57:16:345 [ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2021-09-13 05:57:16:345 [ADB] Running 'C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b8afcac90408 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2021-09-13 05:57:16:491 [UiAutomator2] No app capability. Assuming it is already on the device
+2021-09-13 05:57:16:494 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2021-09-13 05:57:16:560 [UiAutomator2] No obsolete sessions have been detected (socket hang up)
+2021-09-13 05:57:16:561 [ADB] Running 'C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b8afcac90408 shell am force-stop io.appium.uiautomator2.server.test'
+2021-09-13 05:57:16:689 [UiAutomator2] Starting UIAutomator2 server 4.21.1
+2021-09-13 05:57:16:690 [UiAutomator2] Using UIAutomator2 server from 'C:\Users\Dell\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.21.1.apk' and test from 'C:\Users\Dell\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2021-09-13 05:57:16:691 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2021-09-13 05:57:16:694 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","b8afcac90408","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2021-09-13 05:57:16:715 [WD Proxy] Matched '/status' to command name 'getStatus'
+2021-09-13 05:57:16:719 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2021-09-13 05:57:16:734 [WD Proxy] socket hang up
+2021-09-13 05:57:17:775 [WD Proxy] Matched '/status' to command name 'getStatus'
+2021-09-13 05:57:17:778 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2021-09-13 05:57:17:789 [WD Proxy] socket hang up
+2021-09-13 05:57:18:104 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2021-09-13 05:57:18:806 [WD Proxy] Matched '/status' to command name 'getStatus'
+2021-09-13 05:57:18:807 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2021-09-13 05:57:18:819 [WD Proxy] socket hang up
+2021-09-13 05:57:19:830 [WD Proxy] Matched '/status' to command name 'getStatus'
+2021-09-13 05:57:19:831 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2021-09-13 05:57:19:933 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2021-09-13 05:57:19:935 [UiAutomator2] The initialization of the instrumentation process took 3244ms
+2021-09-13 05:57:19:936 [WD Proxy] Matched '/session' to command name 'createSession'
+2021-09-13 05:57:19:937 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8200/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.android.camera","appActivity":".Camera","noReset":true,"platformVersion":"10","automationName":"Appium","platformName":"Android","deviceName":"Redmi 9 Prime","UDID":"b8afcac90408"},"appPackage":"com.android.camera","appActivity":".Camera","noReset":true,"platformVersion":"10","automationName":"Appium","platformName":"Android","deviceName":"b8afcac90408","UDID":"b8afcac90408","deviceUDID":"b8afcac90408"}],"alwaysMatch":{}}}
+2021-09-13 05:57:19:972 [WD Proxy] Got response with status 200: {"sessionId":"0de55a6d-8079-4f11-b90f-328df32dd038","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.android.camera","appActivity":".Camera","noReset":true,"platformVersion":"10","automationName":"Appium","platformName":"Android","deviceName":"Redmi 9 Prime","UDID":"b8afcac90408"},"appPackage":"com.android.camera","appActivity":".Camera","noReset":true,"platformVersion":"10","automationName":"Appium","platformName":"Android","deviceName":"b8afcac90408","UDID":"b8afcac90408","deviceUDID":"b8afcac90408"}],"alwaysMatch":{}},"sessionId":"0de55a6d-8079-4f11-b90f-328df32dd038"}}
+2021-09-13 05:57:19:974 [WD Proxy] Determined the downstream protocol as 'W3C'
+2021-09-13 05:57:20:029 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/wd/hub/session/0de55a6d-8079-4f11-b90f-328df32dd038/appium/device/info] with no body
+2021-09-13 05:57:20:111 [WD Proxy] Got response with status 200: {"sessionId":"0de55a6d-8079-4f11-b90f-328df32dd038","value":{"androidId":"2a060e49df9caa43","apiVersion":"29","bluetooth":{"state":"OFF"},"brand":"Redmi","carrierName":"Jio 4G","displayDensity":440,"locale":"en_IN","manufacturer":"Xiaomi","model":"M2004J19C","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":102400,"linkUpstreamBandwidthKbps":51200,"networkCapabilities":"NET_CAPABILITY_IMS,NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"ims","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":13,"subtypeName":"LTE","type":0,"typeName":"MOBILE"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":102400,"linkUpstreamBandwidthKbps":51200,"networkCapabilities":"NET_CAPABILITY_...
+2021-09-13 05:57:20:113 [ADB] Running 'C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b8afcac90408 shell dumpsys window'
+2021-09-13 05:57:20:310 [AndroidDriver] Screen already unlocked, doing nothing
+2021-09-13 05:57:20:311 [UiAutomator2] Starting 'com.android.camera/.Camera and waiting for 'com.android.camera/.Camera'
+2021-09-13 05:57:20:313 [ADB] Running 'C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b8afcac90408 shell am start -W -n com.android.camera/.Camera -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2021-09-13 05:57:22:136 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/wd/hub/session/0de55a6d-8079-4f11-b90f-328df32dd038/appium/device/pixel_ratio] with no body
+2021-09-13 05:57:22:157 [WD Proxy] Got response with status 200: {"sessionId":"0de55a6d-8079-4f11-b90f-328df32dd038","value":2.75}
+2021-09-13 05:57:22:161 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2021-09-13 05:57:22:162 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/wd/hub/session/0de55a6d-8079-4f11-b90f-328df32dd038/appium/device/system_bars] with no body
+2021-09-13 05:57:22:175 [WD Proxy] Got response with status 200: {"sessionId":"0de55a6d-8079-4f11-b90f-328df32dd038","value":{"statusBar":76}}
+2021-09-13 05:57:22:178 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2021-09-13 05:57:22:179 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/wd/hub/session/0de55a6d-8079-4f11-b90f-328df32dd038/window/current/size] with no body
+2021-09-13 05:57:22:194 [WD Proxy] Got response with status 200: {"sessionId":"0de55a6d-8079-4f11-b90f-328df32dd038","value":{"height":2134,"width":1080}}
+2021-09-13 05:57:22:197 [Appium] New AndroidUiautomator2Driver session created successfully, session 5f9939bd-f744-4616-b403-7eac1320d051 added to master session list
+2021-09-13 05:57:22:199 [BaseDriver] Event 'newSessionStarted' logged at 1631512642199 (11:27:22 GMT+0530 (India Standard Time))
+2021-09-13 05:57:22:201 [MJSONWP (5f9939bd)] Cached the protocol value 'MJSONWP' for the new session 5f9939bd-f744-4616-b403-7eac1320d051
+2021-09-13 05:57:22:203 [MJSONWP (5f9939bd)] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.android.camera","appActivity":".Camera","noReset":true,"platformVersion":"10","automationName":"Appium","platformName":"Android","deviceName":"Redmi 9 Prime","UDID":"b8afcac90408"},"appPackage":"com.android.camera","appActivity":".Camera","noReset":true,"platformVersion":"10","automationName":"Appium","platformName":"Android","deviceName":"b8afcac90408","UDID":"b8afcac90408","deviceUDID":"b8afcac90408","deviceApiLevel":29,"deviceScreenSize":"1080x2340","deviceScreenDensity":440,"deviceModel":"M2004J19C","deviceManufacturer":"Xiaomi","pixelRatio":2.75,"statBarHeight":76,"viewportRect":{"left":0,"top":76,"width":1080,"height":2058}}
+2021-09-13 05:57:22:209 [HTTP] <-- POST /wd/hub/session 200 16992 ms - 934
+2021-09-13 05:57:22:210 [HTTP] 
+2021-09-13 05:57:22:305 [HTTP] --> POST /wd/hub/session/5f9939bd-f744-4616-b403-7eac1320d051/timeouts
+2021-09-13 05:57:22:306 [HTTP] {"type":"implicit","ms":10000}
+2021-09-13 05:57:22:314 [MJSONWP (5f9939bd)] Calling AppiumDriver.timeouts() with args: ["implicit",10000,null,null,null,"5f9939bd-f744-4616-b403-7eac1320d051"]
+2021-09-13 05:57:22:315 [BaseDriver] MJSONWP timeout arguments: {"type":"implicit","ms":10000}}
+2021-09-13 05:57:22:316 [BaseDriver] Set implicit wait to 10000ms
+2021-09-13 05:57:22:317 [MJSONWP (5f9939bd)] Responding to client with driver.timeouts() result: null
+2021-09-13 05:57:22:320 [HTTP] <-- POST /wd/hub/session/5f9939bd-f744-4616-b403-7eac1320d051/timeouts 200 13 ms - 76
+2021-09-13 05:57:22:321 [HTTP] 
